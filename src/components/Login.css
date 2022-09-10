@@ -1,0 +1,44 @@
+  .Login {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+  }
+
+  button {
+    padding: 1rem 1rem 1rem 1rem;
+    margin: 0rem 1rem 0rem 1rem;
+    cursor: pointer;
+    border-radius: 0.3rem;
+    border: none;
+    color: white;
+    background-color: #F57C00;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    transition: 0.3s ease-in-out;
+  }
+
+  .container1 {
+    width: 700px;
+    height: 400px;
+    display: flex;
+    background-color: #000000;
+    font-size: 25px;
+    border: 5px solid #F57C00;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1.5rem 1.5rem;
+    margin-top: 100px;
+    color: #F57C00;
+    border-radius: 1rem;
+    }
+
+    #password{
+      width: 200px;
+      padding: 8px;
+    }
+
+    #email{
+      width: 200px;
+      padding: 8px;
+    }
